@@ -1,0 +1,95 @@
+.Body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-family: system-ui;
+	color: #252525;
+}
+
+.MainColumn {
+	display: flex;
+	padding: 1em;
+	width: 100%;
+	flex-direction: column;
+}
+
+.MainColumn a {
+	text-decoration: underline;
+	color: #252525;
+}
+
+.CvName {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.CvSummaryLocation {
+	margin: 0 0 2em 0;
+}
+
+.CvSummary {
+	font-size: 1.25em;
+}
+
+.CvLocation {
+	color: #AAA;
+}
+
+.SummaryBlock {
+	margin: 0 0 4em 0;
+}
+
+.ExperienceTitle,
+.SummaryTitle {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 0 0.5em 0;
+}
+
+.ExperienceBlock {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	border-top: 1px solid #CCC;
+	padding: 1em 0;
+}
+
+.GameDescription {
+	flex-grow: 0.5;
+}
+
+.VideoContainer {
+	display: flex;
+	flex-grow: 0.5;
+	justify-content: right;
+}
+
+.GameName {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+}
+
+.GamePlatforms {
+	margin: 1em 0;
+}
+
+.GameEngine {
+	margin: 1em 0;
+}
+
+.GameText {
+	margin: 1em 0;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+    max-width: 600px;
+}
+
+
+
+
+
+
