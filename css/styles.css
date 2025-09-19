@@ -99,7 +99,7 @@
 iframe {
     aspect-ratio: 16 / 9;
     width: 100% !important;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .Icon {
@@ -148,4 +148,19 @@ iframe {
 .IconUnreal {
 	background-image: url('../images/unreal.jpg');
 }
+
+.IconTap {
+	background-image: url('../images/tap.jpg');
+}
+
+.IconLD {
+	background-image: url('../images/ld.png');
+}
+
+.SectionTitle {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
 
