@@ -19,7 +19,12 @@
 	color: #252525;
     display: inline-flex;
     align-items: center;
-    margin: 0 0.5em;
+    margin: 0 1em 0 0;
+}
+
+.GameEngine {
+	display: inline-flex;
+	align-items: center;
 }
 
 .CvName {
@@ -134,5 +139,13 @@ iframe {
 .IconIOS {
 	background-image: url('../images/ios.jpg');
 	border-radius: 1024px;
+}
+
+.IconUnity {
+	background-image: url('../images/unity.png');
+}
+
+.IconUnreal {
+	background-image: url('../images/unreal.jpg');
 }
 
